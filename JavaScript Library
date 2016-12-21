@@ -5,7 +5,7 @@
   window.setTheTimer = function() {
     //To Do - Hide the Spinner
     if (typeof(Storage) === "undefined") {
-      alert('HTML5 Storage is not supported.  This Add-on will not work in this browser.  Please update your browser.');
+      alert('HTML5 Storage is not supported.  This App will not work in this browser.  Please update your browser.');
       return;
     }
 
